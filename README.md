@@ -1,6 +1,7 @@
 # RestaurantApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.5.
+This is a single web page for a restaurant to show the menu list available at the restaurant. The page is dynamic and suggest various other available menu items as the user is picking a specific item. For example, let’s say user is interested in having salad at restaurant. He is provided with various salad options and when the user chooses “Greek” salad option, we display her/him related other choices she/he might be interested (for example, Dressing or Bread, etc.). We also want to collapse the menu if the user unselects an item. For instance, let’s say the user is interested in Salad and Soup but later decides against Salad. In that case, that option should be collapsed for better user experience
 ## Set up
 1. Clone or download the project
 2. Run npm install
